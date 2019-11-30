@@ -18,7 +18,9 @@ function App() {
   return (
     <div className="App">
       <h1>C'est la grève ? Prenez la 14 !</h1>
-    {stations.map(station => { return <p>{station}</p> })}
+      <div id="stations">
+        {stations.map(station => { return <div>{station}</div> })}
+      </div>
     </div>
   );
 }
