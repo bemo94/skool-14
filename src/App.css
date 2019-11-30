@@ -2,6 +2,43 @@
   text-align: center;
 }
 
+* {
+  font-family: 'Calibri';
+}
+
+#line {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  height: 15px;
+  width: 90%;
+  background-color: purple;
+}
+
 #stations {
   display: flex;
+}
+
+.xl-circle {
+  position: absolute;
+  left: 4%;
+  top: 10%;
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+.s-circle {
+  position: absolute;
+  left: 4.3%;
+  top: 10.5%;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.station-name {
+  transform: rotate(-45deg)
 }

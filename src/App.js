@@ -18,8 +18,13 @@ function App() {
   return (
     <div className="App">
       <h1>C'est la grève ? Prenez la 14 !</h1>
-      <div id="stations">
-        {stations.map(station => { return <div>{station}</div> })}
+      <div id="metro-line">
+        <div id="line"></div>
+        <div class="xl-circle"></div>
+        <div class="s-circle"></div>
+        <div id="stations">
+        {stations.map(station => { return <div class="station-name">{station}</div> })}
+        </div>
       </div>
     </div>
   );
