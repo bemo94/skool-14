@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
     { name: "Saint O'Lazare",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "SOL",
           hobbies: "",
           mission: "",
           funfact: "",
@@ -19,31 +18,31 @@ function App() {
     { name: "MADEleine",
       reponses: [
         {
-          quadrigramme: "ADZO",
-          hobbies: "",
-          mission: "",
-          funfact: "",
-          citation: "",
-          technos: "",
+          quadrigramme: "MADE",
+          hobbies: "Avoir le style de Rafaël Nadal sans le talent",
+          mission: "Distribuer des applications sur vos mobiles",
+          funfact: "Je suis la seule personne à aimer les capsules nespresso vanilla",
+          citation: "\"Je lis plein de livres, après les gens il me croivent ou ils me croivent pas\" - Steevy Boulay",
+          technos: "Rails, React",
         }
       ]
     },
     { name: "P'YAMAdes",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "YAMA",
           hobbies: "",
-          mission: "",
+          mission: "Je maintiens Twig sur les rails",
           funfact: "",
-          citation: "",
-          technos: "",
+          citation: "\"Tomorrow is a magic place where 99% of all human creativity, motivation and goals are achived\"",
+          technos: "React, Rails, Javascript",
         }
       ]
     },
     { name: "ChâTOPI",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "TOPI",
           hobbies: "",
           mission: "",
           funfact: "",
@@ -56,18 +55,18 @@ function App() {
       reponses: [
         {
           quadrigramme: "ADZO",
-          hobbies: "",
+          hobbies: "Déguiser mon canard OCTO avec de la patafix",
           mission: "",
-          funfact: "",
-          citation: "",
-          technos: "",
+          funfact: "Je ne suis encore jamais allé au K1ZE !",
+          citation: "\"Avec l’application OCTO AR, les publications OCTO prennent du relief !\" - VGU",
+          technos: "Kotlin, Ruby",
         }
       ]
     },
     { name: "BEMOrcy",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "BEMO",
           hobbies: "",
           mission: "",
           funfact: "",
@@ -79,7 +78,7 @@ function App() {
     { name: "Cour St ZEMAlion",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "ZEMA",
           hobbies: "",
           mission: "",
           funfact: "",
@@ -91,7 +90,7 @@ function App() {
     { name: "BNFMI",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "FMI",
           hobbies: "",
           mission: "",
           funfact: "",
@@ -103,7 +102,7 @@ function App() {
     { name: "VAALympiade",
       reponses: [
         {
-          quadrigramme: "ADZO",
+          quadrigramme: "VAAL",
           hobbies: "",
           mission: "",
           funfact: "",
@@ -128,6 +127,7 @@ function App() {
       </div>
 
       <div id="presentation">
+        Texte de présentation
       </div>
     </div>
   );
