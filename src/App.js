@@ -4,15 +4,115 @@ import './App.css';
 
 function App() {
   let stations = [
-    "Saint O'Lazare",
-"MADEleine",
-"P'YAMAdes",
-"ChâTOPI",
-"Gare d'ADZO",
-"BEMOrcy",
-"Cour St ZEMAlion",
-"BNFMI",
-"VAALympiade"]
+    { name: "Saint O'Lazare",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "MADEleine",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "P'YAMAdes",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "ChâTOPI",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "Gare d'ADZO",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "BEMOrcy",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "Cour St ZEMAlion",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "BNFMI",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    },
+    { name: "VAALympiade",
+      reponses: [
+        {
+          quadrigramme: "ADZO",
+          hobbies: "",
+          mission: "",
+          funfact: "",
+          citation: "",
+          technos: "",
+        }
+      ]
+    }
+  ]
 
 
   return (
@@ -23,7 +123,7 @@ function App() {
         <div class="xl-circle"></div>
         <div class="s-circle"></div>
         <div id="stations">
-        {stations.map(station => { return <div class="station-name">{station}</div> })}
+        {stations.map(station => { return <div class="station-name">{station.name}</div> })}
         </div>
       </div>
 
