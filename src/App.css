@@ -42,3 +42,7 @@
 .station-name {
   transform: rotate(-45deg)
 }
+
+#presentation {
+  padding-top: 75px;
+}

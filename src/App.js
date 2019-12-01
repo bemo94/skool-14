@@ -26,6 +26,9 @@ function App() {
         {stations.map(station => { return <div class="station-name">{station}</div> })}
         </div>
       </div>
+
+      <div id="presentation">
+      </div>
     </div>
   );
 }
