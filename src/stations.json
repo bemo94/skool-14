@@ -1,0 +1,112 @@
+{ "data":
+  [
+    {
+      "quadrigramme": "SOL",
+      "name": "Saint O'Lazare",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "",
+        "funfact": "",
+        "citation": "",
+        "technos": ""
+      }
+    },
+    {
+      "quadrigramme": "MADE",
+      "name": "MADEleine",
+      "reponses":
+      {
+        "hobbies": "Avoir le style de Rafaël Nadal sans le talent",
+        "mission": "Distribuer des applications sur vos mobiles",
+        "funfact": "Je suis la seule personne à aimer les capsules nespresso vanilla",
+        "citation": "\"Je lis plein de livres, après les gens il me croivent ou ils me croivent pas\" - Steevy Boulay",
+        "technos": "Rails, React"
+      }
+    },
+    {
+      "quadrigramme": "YAMA",
+      "name": "P'YAMAdes",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "Je maintiens Twig sur les rails",
+        "funfact": "",
+        "citation": "\"Tomorrow is a magic place where 99% of all human creativity, motivation and goals are achived\"",
+        "technos": "React, Rails, Javascript"
+      }
+    },
+    {
+      "quadrigramme": "TOPI",
+      "name": "ChâTOPI",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "",
+        "funfact": "",
+        "citation": "",
+        "technos": ""
+      }
+    },
+    {
+      "quadrigramme": "ADZO",
+      "name": "Gare d'ADZO",
+      "reponses":
+      {
+        "hobbies": "Déguiser mon canard OCTO avec de la patafix",
+        "mission": "",
+        "funfact": "Je ne suis encore jamais allé au K1ZE !",
+        "citation": "\"Avec l’application OCTO AR, les publications OCTO prennent du relief !\" - VGU",
+        "technos": "Kotlin, Ruby"
+      }
+    },
+    {
+      "quadrigramme": "BEMO",
+      "name": "BEMOrcy",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "",
+        "funfact": "",
+        "citation": "",
+        "technos": ""
+      }
+    },
+    {
+      "quadrigramme": "ZEMA",
+      "name": "Cour St ZEMAlion",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "",
+        "funfact": "",
+        "citation": "",
+        "technos": ""
+      }
+    },
+    {
+      "quadrigramme": "FMI",
+      "name": "BNFMI",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "",
+        "funfact": "",
+        "citation": "",
+        "technos": ""
+      }
+    },
+    {
+      "quadrigramme": "VAAL",
+      "name": "VAALympiade",
+      "reponses":
+      {
+        "hobbies": "",
+        "mission": "",
+        "funfact": "",
+        "citation": "",
+        "technos": ""
+      }
+    }
+  ]
+}
