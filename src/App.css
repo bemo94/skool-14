@@ -1,28 +1,92 @@
-.App {
-  text-align: center;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Calibri';
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-  font-family: 'Calibri';
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #ededed;
+  padding-bottom: 5%;
+}
+
+h1 {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #333;
 }
 
 #line {
-  display: inline-flex;
-  position: relative;
-  justify-content: center;
-  height: 15px;
+  height: 10px;
   width: 90%;
-  background-color: purple;
+  background-color: #622181;
+}
+
+#metro-line {
+  position: relative;
+  background-color: #fff;
+  height: 300px;
+  margin: 10%;
+  padding-bottom: 5%;
 }
 
 #stations {
-  display: flex;
+  display: inline-flex;
 }
 
 .xl-circle {
   position: absolute;
   left: 4%;
-  top: 10%;
+  top: 73%;
   width: 25px;
   height: 25px;
   background-color: #000;
@@ -32,17 +96,41 @@
 .s-circle {
   position: absolute;
   left: 4.3%;
-  top: 10.5%;
+  top: 76.5%;
   width: 18px;
   height: 18px;
   background-color: #fff;
   border-radius: 100%;
 }
 
-.station-name {
-  transform: rotate(-45deg)
+h2 {
+  color: #333;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 600;
 }
 
-#presentation {
-  padding-top: 75px;
+.station-name {
+  width: fit-content;
+  padding: 0.5%;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #003F90;
+  transform: rotate(-28deg);
+}
+
+.station-name:hover {
+  background-color: #003F90;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+#presentation-container {
+  display: flex;
+  background-color: #00A994;
+  margin-top: 7%;
+  padding-left: 5%;
+  transition: 2s;
 }
