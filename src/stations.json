@@ -54,10 +54,10 @@
       "reponses":
       {
         "hobbies": "Déguiser mon canard OCTO avec de la patafix",
-        "mission": "",
-        "funfact": "Je ne suis encore jamais allé au K1ZE !",
+        "mission": "Trouver des bugs sur l'application Hello Bank!",
+        "funfact": "Je ne suis encore jamais allée au K1ZE !",
         "citation": "\"Avec l’application OCTO AR, les publications OCTO prennent du relief !\" - VGU",
-        "technos": "Kotlin, Ruby"
+        "technos": "Kotlin, Unity"
       }
     },
     {
@@ -89,11 +89,11 @@
       "name": "BNFMI",
       "reponses":
       {
-        "hobbies": "",
-        "mission": "",
-        "funfact": "",
-        "citation": "",
-        "technos": ""
+        "hobbies": "Le code bien fait, la guitare, nintendo, les cubes",
+        "mission": "Premier et dernier des COSMOs - du conseil - mentoring de la meilleure skool ;-)",
+        "funfact": "J'ai \"conduit\" un TGV à pleine vitesse \\o/",
+        "citation": "\"Le train de tes injures roule sur le rail de mon indifférence\"",
+        "technos": "Java, Kotlin, Android, Spring"
       }
     },
     {
